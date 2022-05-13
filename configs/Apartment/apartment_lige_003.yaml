@@ -21,20 +21,20 @@ mapping:
   pixels: 5000
   iters_first: 1500
   iters: 60
-  bound: [[-5.8,11.3],[-4.0,4.5],[-7.9,4.9]]
-  marching_cubes_bound: [[-5.8,11.3],[-4.0,4.5],[-7.9,4.9]]
+  bound: [[-4.2701256275177,3.4099998474121094],[-2.8299999237060547,1.4099999964237213],[-4.389999866485596,5.011698246002197]]
+  marching_cubes_bound: [[-4.2701256275177,3.4099998474121094],[-2.8299999237060547,1.4099999964237213],[-4.389999866485596,5.011698246002197]]
 cam:
   H: 720 
   W: 1280
-  fx: 607.4694213867188
-  fy: 607.4534912109375
-  cx: 636.9967041015625
-  cy: 369.2689514160156
+  fx: 612.4511337280273
+  fy: 612.4297714233398
+  cx: 636.7860412597656
+  cy: 368.3033752441406
   png_depth_scale: 1000.0 #for depth image in png format
   crop_edge: 0
 data:
-  input_folder: /mnt/Data/Datasets/nice_slam/Apartment
-  output: output/Apartment
+  input_folder: /mnt/Data/Datasets/Depth/000003
+  output: output/Lige003
 meshing:
   depth_test: True
   get_largest_components: True
